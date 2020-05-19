@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+
 </head>
 <body>
-    
+    <header>
+        <h2><a href="#">Contact Me</a></h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <form>
+        <label  for="fname">First Name:</label>
+        <input name="firstName"id="fname" type="text" placeholder="Vidya" required> <br>
+
+        <label  for="lname">Last Name:</label>
+        <input name="lastName"id="lname" type="text" placeholder="Genius"required> <br>
+
+        <label for="email">Your Email ID</label>
+        <input name= "email" id="email" type="email" placeholder="genius@brilliance.com"required><br>
+        <label for="phoneNo">Your Phone Number</label>
+        <input name="phoneNo" id="phoneNo" type="tel" placeholder="3141592653"><br>
+        <div>
+            <p>Preferred mode of contact</p>
+            <label>Email
+                <input name="contactMode"value="email" type="radio">
+            </label>
+            <label>Text
+                <input name="contactMode"value="text" type="radio">
+            </label>
+            <label>Call
+                <input name="contactMode"value="call" type="radio">
+            </label>
+        </div>
+        <textarea name"message" rows="10" cols="70">Leave a message</textarea><br>
+        <button>Submit</button>
+        </form>
+    </main>
+
+    <footer>Test</footer>
+
 </body>
 </html>

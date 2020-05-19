@@ -1,0 +1,23 @@
+
+img{
+    width:30%;
+    margin:1.66%;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    margin: 50px;
+    animation: 1s fadein 2s forwards;
+    opacity: 0;
+  
+}
+@keyframes fadein {
+    100% {
+      opacity: 1;
+    }

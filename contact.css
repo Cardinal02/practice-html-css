@@ -1,0 +1,19 @@
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  form{
+    background-color: #5B1865;
+    padding: 20px;
+  }
